@@ -835,6 +835,18 @@ main {
   font-size: 16px;
 }
 
+.project-status {
+  display: inline-flex;
+  width: max-content;
+  padding: 7px 10px;
+  border: 1px solid rgba(46, 196, 182, 0.72);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .testing-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
