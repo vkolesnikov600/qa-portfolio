@@ -4,6 +4,6 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 .edge-profile/
-docs/
-notes/
-projects/
+/docs/
+/notes/
+/projects/
