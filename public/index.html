@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="particles"></div>
+  <div class="page-glow"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#about" aria-label="QA Portfolio home">
+      <span class="brand-mark">
+        <span class="brand-letters">QA</span>
+        <span class="brand-check"></span>
+        <span class="brand-pixel brand-pixel-one"></span>
+        <span class="brand-pixel brand-pixel-two"></span>
+      </span>
+      <span>PORTFOLIO</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="active" href="#about">Обо мне</a>
+      <a href="#experience">Опыт</a>
+      <a href="#skills">Навыки</a>
+      <a href="#certificates">Сертификаты</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+
+    <div class="header-actions" aria-label="Social and theme links">
+      <a class="icon-link" href="#" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.3-.3-4.7-1.1-4.7-5A3.9 3.9 0 0 1 6.6 9c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a9.8 9.8 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.7 5 .4.3.7 1 .7 2V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/>
+        </svg>
+      </a>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle particles color">
+        <span>*</span>
+        <i></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow">ВЛАДИСЛАВ КОЛЕСНИКОВ</p>
+      <h1>QA ENGINEER</h1>
+      <p class="hero-copy">
+        4+ года тестирования банковских продуктов,<br>
+        маркетплейсов и высоконагруженных retail-платформ.
+      </p>
+
+      <a class="primary-button" href="#projects">
+        Смотреть проекты
+        <span>&rarr;</span>
+      </a>
+
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p>Обо мне</p>
+        <span></span>
+      </div>
+
+      <div class="about-content">
+        <div class="about-photo">
+          <img src="./profile-site-preview.png" alt="My photo">
+        </div>
+
+        <div class="about-copy">
+          <p>
+            Я QA инженер, который не просто находит баги, а разбирается, почему они возникают.
+          </p>
+          <p>
+            За 4+ года работы я тестировал банковские системы и e-commerce платформы,
+            работая с веб, мобильными приложениями и API. Мой подход — смотреть на продукт глубже:
+            анализировать логи, проверять данные в базе, исследовать взаимодействие сервисов.
+          </p>
+          <p>
+            Я понимаю, как устроены системы “под капотом”, поэтому могу находить не только
+            очевидные дефекты, но и сложные проблемы в бизнес-логике.
+          </p>
+          <p>
+            Сейчас активно развиваюсь в автоматизации тестирования (Python, pytest, Selenium)
+            и стремлюсь строить процессы, которые делают продукт стабильнее и надёжнее.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading">
+        <p>Опыт</p>
+        <span></span>
+      </div>
+
+      <div class="experience-grid">
+        <article class="experience-card">
+          <span class="experience-period">Окт 2022 - Мар 2025</span>
+          <h3>QA Engineer</h3>
+          <p class="experience-company">DevCats / Green Telecom</p>
+          <p>
+            Тестировал цифровые банковские продукты, marketplace-сценарии, web-приложения,
+            мобильные приложения, внутренние системы и REST API.
+          </p>
+          <ul>
+            <li>Функциональное, интеграционное и регрессионное тестирование</li>
+            <li>Проверка REST API через Postman и Swagger</li>
+            <li>Анализ логов и проверка данных в PostgreSQL и DBeaver</li>
+            <li>Mobile debugging через Android Studio, Xcode, Charles Proxy и DevTools</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <span class="experience-period">Мар 2020 - Сен 2021</span>
+          <h3>QA Engineer / Web, API, Mobile</h3>
+          <p class="experience-company">AGIMA / X5 Group "Pyaterochka"</p>
+          <p>
+            Тестировал web и mobile продукты retail-направления, release builds и
+            кроссплатформенное поведение ключевых пользовательских сценариев.
+          </p>
+          <ul>
+            <li>Smoke, sanity, regression и exploratory testing</li>
+            <li>Кроссбраузерное тестирование через BrowserStack</li>
+            <li>Анализ логов в Kibana и работа с трейсами</li>
+            <li>SQL-проверки, баг-трекинг в Jira, документация в TestRail и Confluence</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p>Навыки</p>
+        <span></span>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-item">
+          <span class="skill-badge">QA</span>
+          <h3>Ручное тестирование</h3>
+          <p>Functional, smoke, sanity, regression</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">TD</span>
+          <h3>Тест-дизайн</h3>
+          <p>Тест-кейсы, чек-листы, тестовые модели</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">API</span>
+          <h3>API тестирование</h3>
+          <p>Postman, Swagger, REST</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">SQL</span>
+          <h3>Базы данных</h3>
+          <p>SQL, PostgreSQL, MySQL</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">DB</span>
+          <h3>DB-инструменты</h3>
+          <p>DBeaver, PgAdmin</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">BUG</span>
+          <h3>Баг-трекинг</h3>
+          <p>Jira, ретест, приоритизация</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">DOC</span>
+          <h3>Документация</h3>
+          <p>Confluence, TestRail</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">WEB</span>
+          <h3>Web testing</h3>
+          <p>UI, DevTools, BrowserStack</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">MOB</span>
+          <h3>Mobile testing</h3>
+          <p>Android Studio, Xcode</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">NET</span>
+          <h3>Трафик</h3>
+          <p>Charles Proxy, Network, HTTP/HTTPS</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">LOG</span>
+          <h3>Логи</h3>
+          <p>Kibana, traces, incident analysis</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">CI</span>
+          <h3>CI/CD</h3>
+          <p>Jenkins, builds, releases</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">PY</span>
+          <h3>Python</h3>
+          <p>pytest, Selenium basics</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">FE</span>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">GIT</span>
+          <h3>Git</h3>
+          <p>Работа с версиями проекта</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">SCR</span>
+          <h3>Scrum</h3>
+          <p>Agile, митинги, командная работа</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">DKR</span>
+          <h3>Docker</h3>
+          <p>Базовая работа с окружениями</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">IDE</span>
+          <h3>IDE</h3>
+          <p>VS Code, PyCharm</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">REQ</span>
+          <h3>Требования</h3>
+          <p>Анализ ТЗ и тех. документации</p>
+        </article>
+
+        <article class="skill-item">
+          <span class="skill-badge">UX</span>
+          <h3>Пользовательский опыт</h3>
+          <p>Проверка сценариев и коммерческой логики</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section certificates-section" id="certificates">
+      <div class="section-heading">
+        <p>Сертификаты</p>
+        <span></span>
+      </div>
+
+      <div class="certificates-grid">
+        <article class="certificate-card">
+          <div class="certificate-preview">
+            <img src="./certificates/previews/certificate-01.jpg" alt="Skyeng Certificate preview">
+          </div>
+          <div class="certificate-info">
+            <span>01</span>
+            <h3>Сертификат Skyeng</h3>
+            <p>Сертификат в формате PDF.</p>
+            <a href="./certificates/certificate-01.pdf" target="_blank" rel="noreferrer">Открыть PDF</a>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-preview">
+            <img src="./certificates/previews/certificate-02.jpg" alt="Certificate 02 preview">
+          </div>
+          <div class="certificate-info">
+            <span>02</span>
+            <h3>Профессиональный HTML и CSS</h3>
+            <p>Сертификат HTML Academy, уровень 1.</p>
+            <a href="./certificates/certificate-02.pdf" target="_blank" rel="noreferrer">Открыть PDF</a>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-preview">
+            <img src="./certificates/previews/certificate-03.jpg" alt="Certificate 03 preview">
+          </div>
+          <div class="certificate-info">
+            <span>03</span>
+            <h3>Разработка на React</h3>
+            <p>Сертификат HTML Academy по сложным клиентским приложениям.</p>
+            <a href="./certificates/certificate-03.pdf" target="_blank" rel="noreferrer">Открыть PDF</a>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-preview">
+            <img src="./certificates/previews/certificate-04.jpg" alt="Certificate 04 preview">
+          </div>
+          <div class="certificate-info">
+            <span>04</span>
+            <h3>Профессиональный JavaScript</h3>
+            <p>Сертификат HTML Academy, уровень 1.</p>
+            <a href="./certificates/certificate-04.pdf" target="_blank" rel="noreferrer">Открыть PDF</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p>Проекты</p>
+        <span></span>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-icon shield-icon"></span>
+          <div>
+            <h3>QA Portfolio</h3>
+            <p>Персональное QA-портфолио на HTML, CSS, JavaScript и Express.</p>
+            <a href="#">Смотреть проект <span>&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-icon chip-icon"></span>
+          <div>
+            <h3>Практика API тестирования</h3>
+            <p>Проверка REST API через Postman, Swagger и валидацию данных.</p>
+            <a href="#">Смотреть проект <span>&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-icon window-icon"></span>
+          <div>
+            <h3>Web и Mobile тестирование</h3>
+            <p>Функциональное, smoke, regression и кроссплатформенное тестирование.</p>
+            <a href="#">Смотреть проект <span>&rarr;</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testing-section" id="testing">
+      <div class="section-heading">
+        <p>Тестирование</p>
+        <span></span>
+      </div>
+
+      <div class="testing-layout">
+        <article class="testing-panel">
+          <h3>Manual QA</h3>
+          <ul>
+            <li>Анализ требований, тест-кейсы и чек-листы</li>
+            <li>Smoke, sanity, regression и exploratory testing</li>
+            <li>Понятные баг-репорты в Jira со шагами, evidence и expected result</li>
+          </ul>
+        </article>
+
+        <article class="testing-panel">
+          <h3>Technical QA</h3>
+          <ul>
+            <li>Проверка REST API через Postman и Swagger</li>
+            <li>Проверка данных через SQL, PostgreSQL, PgAdmin и DBeaver</li>
+            <li>Локализация дефектов через DevTools, Charles Proxy и Kibana</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p>Контакты</p>
+        <span></span>
+      </div>
+
+      <div class="social-row">
+        <a href="#" aria-label="GitHub">GH</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="mailto:vkolesnikov600@gmail.com" aria-label="Email">@</a>
+        <a href="./docs/vladislav-kolesnikov-resume.pdf" target="_blank" rel="noreferrer" aria-label="Resume">CV</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="./js/particles.js"></script>
+</body>
+</html>
