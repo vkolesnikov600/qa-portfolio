@@ -36,7 +36,7 @@ jobs:
 
       - name: Verify Express healthcheck
         run: |
-          npm start &
+          node app.js &
           APP_PID=$!
           trap 'kill $APP_PID' EXIT
           sleep 3
@@ -48,9 +48,9 @@ jobs:
       - name: Test Docker container
         run: |
           trap 'docker stop qa-portfolio' EXIT
-          docker run -d --name qa-portfolio -p 3000:3000 qa-portfolio
+          docker run -d --name qa-portfolio -p 3001:3000 qa-portfolio
           sleep 3
-          curl --fail http://localhost:3000/health
+          curl --fail http://localhost:3001/health
 
   deploy-pages:
     name: Deploy GitHub Pages
