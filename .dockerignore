@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log*
+.git
+.github
+/.edge-profile
+/docs
+/notes
+/projects
+.env
+.DS_Store
+Thumbs.db
